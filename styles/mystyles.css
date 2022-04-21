@@ -1,0 +1,130 @@
+.smallbody{ 
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategray;
+}
+
+.websitelink{
+  font-size: 12pt;
+  color: black;
+}
+
+.rightsidetool{
+  right: 5px;
+}
+
+.divcolorone{
+  background-color: #A7C7E7;
+}
+
+.divcolortwo{
+  background-color: white;
+}
+
+.welcometitle {
+  font-size: 38pt;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  color: #A7C7E7;
+}
+
+.welcomesubtitle {
+  font-size: 20pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  color: #A7C7E7;
+}
+
+.menuitem {
+  font-size: 15pt;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #A7C7E7;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.bodycolor {
+  color: #A7C7E7;
+}
+
+.bodytitle {
+  font-size: 28pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  color: black;
+}
+
+.homepagetext {
+  font-size: 14pt;
+  color: black;
+  text-align: center;
+}
+
+.rightsideimageresume {
+  float: right;
+  width: 100px;
+}
+
+.centerimage {
+  justify-content: center;
+  width: 100px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.columntwo {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+  
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  /* Tableau CSS */
+
+.navigation{
+  background-color: blueviolet;
+  top: 0px;
+  left: 5px;
+  right: 5px;
+  height: 85px;
+  z-index: 1;
+  position: fixed;
+}
+
+.footer {
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  height: 50px;
+  position: fixed;
+  color: #999999;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.smallwhitebold {
+  color: white;
+  font-weight: bold;
+}
